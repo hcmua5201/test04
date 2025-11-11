@@ -20,7 +20,7 @@ public class SearchByPageTest {
     @BeforeTest
     public void setUp() {
         System.out.println("初始化测试环境");
-        RestAssured.baseURI = "http://127.0.0.1:5000";
+        RestAssured.baseURI = "http://154.219.117.53:5000";
         RestAssured.enableLoggingOfRequestAndResponseIfValidationFails();
     }
 
